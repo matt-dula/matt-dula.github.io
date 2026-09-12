@@ -17,7 +17,7 @@ This website serves as a central hub for my research, publications, and technica
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Site Generator:** [Jekyll](https://jekyllrb.com/)
 - **Hosting:** [GitHub Pages](https://pages.github.com/) (Deployed via GitHub Actions)
@@ -26,7 +26,7 @@ This website serves as a central hub for my research, publications, and technica
 
 ---
 
-## 💻 Local Development Setup
+## Local Development Setup
 
 To run and preview this site locally on your machine:
 
