@@ -43,3 +43,26 @@ Ensure you have Ruby and Bundler installed:
    git clone [https://github.com/mattdula/mattdula.github.io.git](https://github.com/mattdula/mattdula.github.io.git)
    cd mattdula.github.io
    ```
+2. **Install dependencies:**
+   ```bash
+   bundle install
+   ```
+3. **Start the local Jekyll server:**
+   ```bash
+   bundle exec jekyll serve
+   ```
+4. **View in browser:**
+   Open `http://localhost:4000` to preview changes in real time.
+
+---
+
+## Contact & Connect
+
+- [**Google Scholar**](https://scholar.google.com/citations?user=u0haBbcAAAAJ&hl=en&oi=ao)
+- [**LinkedIn**](https://www.linkedin.com/in/matthew-dula)
+
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+*Content, writing, essays, and original works are ©️Matt Dula unless otherwise noted.*
