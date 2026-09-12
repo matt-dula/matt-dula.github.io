@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Matt Dula <dulamatt@msu.edu>"]
+channels = ["conda-forge"]
+name = "matt-dula.github.io"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+install = "bundle install"
+serve = "bundle exec jekyll serve"
+build = "bundle exec jekyll build"
+
+[dependencies]
+ruby = ">=4.0.6,<5"
+compilers = ">=2.0.0,<3"
