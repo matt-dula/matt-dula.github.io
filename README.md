@@ -32,27 +32,27 @@ To run and preview this site locally on your machine:
 
 ### Prerequisites
 
-Ensure you have Ruby and Bundler installed:
-- Ruby (v3.0 or higher recommended)
-- RubyGems & Bundler
+Install [Pixi](https://pixi.sh/) on your machine:
+```bash
+curl -fsSL https://pixi.sh/install.sh | bash
+```
 
 ### Installation & Run
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/mattdula/mattdula.github.io.git](https://github.com/mattdula/mattdula.github.io.git)
-   cd mattdula.github.io
-   ```
-2. **Install dependencies:**
-   ```bash
-   bundle install
-   ```
-3. **Start the local Jekyll server:**
-   ```bash
-   bundle exec jekyll serve
-   ```
-4. **View in browser:**
-   Open `http://localhost:4000` to preview changes in real time.
+```bash
+# Clone the repository
+git clone https://github.com/mattdula/mattdula.github.io.git
+cd mattdula.github.io
+
+pixi run install     # Install the environment
+pixi run serve       # Start the local Jekyll server
+```
+ Open [http://localhost:4000](http://localhost:4000) to preview changes in real time.
+
+### Managing Dependencies
+
+- **System & Binary Dependencies:** Tracked in [pixi.toml](pixi.toml) (managed via `pixi add <package>`).
+- **Ruby Gems & Jekyll Plugins:** Tracked in [Gemfile](Gemfile) (managed via `pixi run bundle add <gem-name>`).
 
 ---
 
@@ -60,6 +60,7 @@ Ensure you have Ruby and Bundler installed:
 
 - [**Google Scholar**](https://scholar.google.com/citations?user=u0haBbcAAAAJ&hl=en&oi=ao)
 - [**LinkedIn**](https://www.linkedin.com/in/matthew-dula)
+- [**Email me**](mailto:dulamatt@msu.edu)
 
 ## License
 
