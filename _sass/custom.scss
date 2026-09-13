@@ -1,0 +1,116 @@
+/* ==========================================
+   Global Forest Green Theme Overrides
+   ========================================== */
+
+a {
+  color: #2e6f40;
+
+  &:visited {
+    color: #235431;
+  }
+
+  &:hover,
+  &:focus {
+    color: #3d8b52;
+  }
+}
+
+.site-title,
+.site-title:visited {
+  color: #2e6f40 !important;
+
+  &:hover {
+    color: #3d8b52 !important;
+  }
+}
+
+.site-nav .page-link {
+  color: #111111;
+
+  &:hover {
+    color: #3d8b52;
+  }
+}
+
+.footer-heading,
+.social-media-list a:hover,
+.contact-list a:hover {
+  color: #3d8b52;
+}
+
+/* ==========================================
+   Rouge Code Highlighting Overrides
+   ========================================== */
+
+html body {
+  /* Default text inside code blocks */
+  .highlight,
+  .highlight pre,
+  .highlight code {
+    color: #1a3822 !important;
+  }
+
+  /* Base Rouge span default */
+  .highlight span {
+    color: #2e6f40;
+  }
+
+  /* Keywords, Control Flow, Imports (if, for, def, import, return) */
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, 
+  .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
+    color: #1e522c !important;
+    font-weight: bold !important;
+  }
+
+  /* Functions, Methods & Declarations */
+  .highlight .nf, .highlight .fm, .highlight .nl {
+    color: #2e6f40 !important;
+    font-weight: bold !important;
+  }
+
+  /* Classes, Built-ins, Types & HTML/YAML Tags */
+  .highlight .nc, .highlight .nb, .highlight .bp, .highlight .nn, 
+  .highlight .nt, .highlight .nd {
+    color: #2e6f40 !important;
+  }
+
+  /* Strings, Symbols, and Character Literals */
+  .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, 
+  .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, 
+  .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1, 
+  .highlight .ss {
+    color: #3d8b52 !important;
+  }
+
+  /* Variables, Attributes & Properties */
+  .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, 
+  .highlight .vm, .highlight .na, .highlight .no, .highlight .n {
+    color: #256137 !important;
+  }
+
+  /* Numbers (Integers, Floats, Hex) */
+  .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, 
+  .highlight .mi, .highlight .il, .highlight .mo {
+    color: #439a5b !important;
+  }
+
+  /* Operators & Punctuation (=, +, -, :, ->) */
+  .highlight .o, .highlight .ow, .highlight .p {
+    color: #1e522c !important;
+  }
+
+  /* Comments */
+  .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, 
+  .highlight .cpf, .highlight .c1, .highlight .cs {
+    color: #768f7c !important;
+    font-style: italic !important;
+  }
+}
+
+/* Inline code tag overrides (dates, single-line code snippets) */
+code {
+  color: #2e6f40 !important;
+  background-color: #f0f7f2 !important; /* Soft light green tint */
+  padding: 2px 6px;
+  border-radius: 4px;
+}

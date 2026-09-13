@@ -28,12 +28,11 @@ url: "https://matt-dula.github.io" # the base hostname & protocol for your site,
 
 # Social links (Minima theme supports these natively)
 github_username:  matt-dula
-# TODO: add linkedin
+linkedin_username: matthew-dula
 
 # >>> Jekyll Settings >>>
 theme: minima
 markdown: kramdown
-highlighter: rouge
 
 include:
   - _pages
@@ -53,3 +52,17 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  essays:
+    defaults:
+      layout: post
+    output: true
+    permalink: /essays/:path/
+# <<< Collections <<<
+
+# >>> 
+header_pages:
+  - _pages/home.md
+  - _pages/about.md
+  #- publications.md
+  - _pages/essays.md
+# <<<

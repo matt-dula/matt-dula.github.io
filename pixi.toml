@@ -15,6 +15,7 @@ platforms = [
 
 [tasks.serve]
 cmd = "bundle exec jekyll serve"
+depends-on = "clean"
 description = "Start local development server with live reload"
 
 [tasks.build]
